@@ -1,8 +1,8 @@
 # Raspberry Pi Self-Driving car
 
-In this project, we used a Raspberry Pi 4B and various sensors to build a self-driving car. 
+In this project, I used a Raspberry Pi 4B and various sensors to build a self-driving car. 
 The Raspberry Pi Cam v.2 was used for image processing and lane tracking which working together with lane tracking sensors, while ultrasonic sensors were used to detect obstacles in the car's path. Temperature sensors were also included to monitor the car's internal and external temperature. Using these sensors and the Raspberry Pi's powerful processing capabilities, 
-we were able to develop a fully autonomous vehicle that can navigate its surroundings and make decisions on its own.
+I am able to develop a fully autonomous vehicle that can navigate its surroundings and make decisions on its own.
 
 ## Getting Started
 Here are the detailed instructions for getting started with your Raspberry Pi 4B self-driving car project:
@@ -77,3 +77,10 @@ One of the most challenging aspects of this project will be getting opencv to wo
 5. If the import statement executes without any errors, opencv-python has been installed successfully.
 
 ## Running the tests
+1. Test the code by running the individual code files. This will allow you to test specific components of your project and    ensure that they are working as expected.
+2. Run the main.py file to test the entire project. This file should include all the other modules and functions needed to    run the self-driving car.
+3. Monitor the output of the tests and look for any errors or issues. If any errors are encountered, debug the code and fix    the issues before running the tests again.
+Note: It is important to ensure that you properly connect the sensors to the correct GPIO pins on the Raspberry Pi, as incorrect connections can often result in errors in the code.
+
+## Acknowledgments
+I would like to extend our gratitude to the computervision.zone website for providing valuable resources and guidance throughout the development of this project. If you are interested in learning more about Python, OpenCV, and other exciting projects, I highly recommend checking out this website.
