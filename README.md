@@ -62,6 +62,7 @@ Tools:
 Libraries:
 * opencv-python
 * pyserial
+* Adruino M5-Stack (basic) DHT11
 
 ## Installing 
 One of the most challenging aspects of this project will be getting opencv to work with Python on your Raspberry Pi. It is crucial that you know how to troubleshoot and reformat your Raspberry Pi when things go wrong, and that you carefully follow all instructions without skipping any steps.
